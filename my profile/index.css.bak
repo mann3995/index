@@ -1,0 +1,190 @@
+html
+{
+	scroll-behavior: smooth;
+}
+/*menu css*/
+
+.navbar-brand
+{
+	color: Orange!important;
+	font-family:bodoni MT ;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.collapse .nav>li>a
+{
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+	font-family: didot;
+}
+.collapse .nav>li:hover a 
+{
+	background: white;
+	color: black;
+}
+
+/*Home section*/
+
+.himg
+{
+	width: 100%;
+	height: 90%;
+}
+h2
+{
+	font-family:papyrus ;
+	text-align: center;
+	padding: 30px;
+	text-shadow: 2px 5px lightgray;
+}
+
+/*About*/
+
+.apara
+{
+	font-family: candara;
+	font-size: 23px;
+	line-height: 60px;
+	word-spacing: 8px;
+	text-align: justify;
+}
+
+/*Education*/
+
+.table
+{
+	border: 3px inset red;
+}
+.table tr>th,td
+{
+	border: 1px solid red;
+}
+thead th
+{
+	border-bottom: 2px solid red!important;
+}
+
+/*Hobbies*/
+
+.cam
+{
+	text-align: center;
+	background: lavender;
+}
+.cam>.fa
+{
+	font-size: 50px;
+}
+.panel-footer
+{
+	background: gray;
+}
+.panel-footer>p
+{
+	text-align: center;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+/*portfolio*/
+
+h2
+			{
+				text-align: center;
+				font-family: cursive;
+			}
+			.img
+			{
+				height: 180px;
+				width:100%;
+			}
+			h3
+			{
+				padding-top: 10px;
+				text-align: center;
+			}
+			.inner
+			{
+				height: 500px;
+				width: 100%;
+				text-align: center;
+			}
+			.btn
+			{
+				color: white;
+				font-family: cursive;
+			}
+			.btn:hover
+			{
+				color: yellow;
+			}
+			.thumb
+			{
+				position: relative;
+				overflow: hidden;
+			}
+			.caption
+			{
+				position: absolute;
+				top: -100%;
+				right: 0;
+				background: rgba(0, 0, 0, 0.5);
+				height: 92%;
+				width: 100%;
+				transition: ease-in-out 0.5s;
+				color: white;
+			}
+			.thumb:hover .caption
+			{
+				top: 0%;
+			}
+
+/*Contact*/
+
+.social-network
+{
+	list-style: none;
+	margin-left: 500px;
+	margin-top: 20px;
+}
+.social-network>li
+{
+	display: inline;
+	margin: 50px;
+}
+.social-circle>li>a
+{
+	font-size: 25px;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	text-align: center;
+}
+.social-network li i
+{
+	margin-top:12px;
+}
+.social-network li a:hover i,.triggedhover
+{
+	color: white;
+	transform: rotate(360deg);
+	transition: ease-in-out .5s;
+}
+.social-circle i
+{
+	transition: ease-in-out .5s;
+}
+.icoFacebook:hover
+{
+	background-color:#3B5998;
+}
+.icoTwitter:hover
+{
+	background-color:#33ccff;
+}
+.icoinstagram:hover
+{
+	background: linear-gradient(to right,gold,red);
+}
