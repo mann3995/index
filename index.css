@@ -178,7 +178,7 @@ h2
 				position: relative;
 				overflow: hidden;
 			}
-			.caption
+			.img
 			{
 				position: absolute;
 				top: -100%;
@@ -189,7 +189,7 @@ h2
 				transition: ease-in-out 0.5s;
 				color: white;
 			}
-			.thumb:hover .caption
+			.thumb:hover .img
 			{
 				top: 0%;
 			}
