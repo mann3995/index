@@ -181,13 +181,13 @@ h3
 			.caption
 			{
 				position: absolute;
-				top: -100%;
+				bottom: -100%;
 				right: 0;
-				background: rgba(0, 0, 0, 0.5);
+				background: rgba(0, 5, 10, 0.5);
 				height: 92%;
 				width: 100%;
 				transition: ease-in-out 0.5s;
-				color: white;
+				color: red;
 			}
 			.thumb:hover .caption
 			{
