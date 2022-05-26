@@ -142,26 +142,13 @@ thead th
 }
 
 /*portfolio*/
-
-h2
+			.port>h2
 			{
 				text-align: center;
-				font-family: cursive;
 			}
-			.img
+			.caption>h3
 			{
-				height: 180px;
-				width:100%;
-			}
-			h3
-			{
-				padding-top: 10px;
-				text-align: center;
-			}
-			.inner
-			{
-				height: 500px;
-				width: 100%;
+				padding-top: 40%;
 				text-align: center;
 			}
 			.btn
@@ -178,7 +165,7 @@ h2
 				position: relative;
 				overflow: hidden;
 			}
-			.img
+			.caption
 			{
 				position: absolute;
 				top: -100%;
@@ -189,11 +176,10 @@ h2
 				transition: ease-in-out 0.5s;
 				color: white;
 			}
-			.thumb:hover .img
+			.thumb:hover .caption
 			{
 				top: 0%;
 			}
-
 /*Contact*/
 
 .social-network
