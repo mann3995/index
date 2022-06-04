@@ -49,7 +49,7 @@
 
                 <!--Menu-->
 
-                <div class="nav navbar-inverse navbar-fixed-top">
+                <div class="navbar-inverse navbar-fixed-top">
                     <div class="navbar-header">
                         <div class="navbar-brand">Manoj Upadhyay</div>
                         <button class="navbar-toggle" data-toggle="collapse" data-target="#1">
@@ -69,6 +69,15 @@
                             <li style="padding-right: 10px;"><a href="#contact">Contact Me</a></li>
                             
                     </ul>
+			<script>
+						$('.navbar-collapse ul li a').click(function() {
+								$('.navbar-toggle:visible').click();
+								});
+							</script>
+							<script>$(document).on('click','.navbar-collapse.in',function(e) {
+							if( $(menu-nav.target).is('a') && ( $(menu-nav.target).attr('nav navbar-nav') != 'dropdown-toggle' ) ) {
+							$(this).collapse('hide');
+							}});</script>
                     
                 </div>
 
